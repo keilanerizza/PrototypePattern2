@@ -11,8 +11,8 @@ public class InimigosCache {
 	/*
 	 * Recuperando do cache calças clonadas
 	 */
-	public static Inimigo getCalca(String calcaId) {
-		Inimigo cache = inimigosCache.get(calcaId);
+	public static Inimigo getInimigo(String inimigoId) {
+		Inimigo cache = inimigosCache.get(inimigoId);
 	      return (Inimigo) cache.clone();
 	}
 
